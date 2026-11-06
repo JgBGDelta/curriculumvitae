@@ -1,4 +1,4 @@
-% Minimal moderncv example to test build
+% Curriculum vitae — Jorge Barroso García
 \documentclass[11pt,a4paper,roman,pdfpagelabels=false]{moderncv}
 
 % moderncv themes
@@ -24,22 +24,20 @@
 \usepackage[scale=0.90]{geometry}
 
 \hypersetup{
-	pdfauthor={Alvaro Viejo Alonso},
-	pdftitle={Alvaro Viejo Alonso's Curriculum Vitae},
-    pdfsubject={Curriculum Vitae},
-	pdfkeywords={CV, Alvaro Viejo Alonso, Software Engineer, Go, JavaScript, TypeScript, Python, Java, AWS, Cloud Computing, Serverless, CI/CD, Docker},
+	pdfauthor={Jorge Barroso García},
+	pdftitle={Jorge Barroso García's Curriculum Vitae},
+	pdfsubject={Curriculum Vitae},
+	pdfkeywords={CV, Jorge Barroso García, Engineer, Python, FastAPI, FFmpeg, C++, C\#, Unity},
 	hidelinks
 }
 
 % Personal data
-\name{Alvaro}{Viejo Alonso}
-\title{Software Engineer}
-\address{Madrid}{Community of Madrid}{Spain}
-\email{alvaro.viejo@yoquec.com}
-\social[linkedin]{viejoalvaro}
-\social[github]{yoquec}
-\social[matrix]{@yoquec.com:matrix.org}
-\social[signal]{@yoquec.42}
+\name{Jorge}{Barroso García}
+\title{Engineer}
+\address{Alcalá de Henares}{Madrid}{Spain}
+\email{jorge.barroso.garcia01@gmail.com}
+\social[linkedin]{jorge-barroso-garcia}
+\social[github]{JgBGDelta}
 
 
 \begin{document}
@@ -48,61 +46,61 @@
 
 \vspace{-10pt}
 \begin{quote}
-\textit{Software Engineer bridging artificial intelligence and software architecture across the stack. Background in Data Science with specialization in \highlight{AI/ML}, now building distributed systems and cloud infrastructure. Currently focused on reliable systems programming with \highlight{Rust} and reproducible builds with \highlight{Nix}.}
+\textit{Engineer and lead developer of the Clipvoo backend at Altatec Security, Spain. Background in Computer Science and Business Management, with special interest in ML, economic theory and cognitive biases in business. Additional background in computer network research and video game development.}
 \end{quote}
 \vspace{-5pt}
 
 \section{Experience}
-\cventry{Mar 2025--Present}{\textbf{Amazon}}{Software Development Engineer}{Madrid, Spain}{CF ACES Team}{
+\cventry{Sep 2025--Present}{\textbf{Altatec Security}}{Software Development Engineer}{Spain}{PulfonLabs, Clipvoo Team}{
   \begin{itemize}
-      \item Developed \highlight{robotic cell communication software} in \textit{Golang} following industry protocols, enabling \highlight{real-time coordination} between robotic cells and the Amazon Warehouse Management System using \textit{Docker} containerization.
-    \item \highlight{Architected communication protocol} enabling robotic vendor integration with Amazon's warehouse management system, coordinating development across internal and external engineering teams.
-    \item Built \textit{React}-based web frontends for warehouse operations tools, deployed to Amazon fulfillment centers \highlight{globally} across \highlight{North America}, \highlight{South America}, and \highlight{Europe}.
-    \item \textbf{Technologies}: \textit{Golang}, \textit{Java}, \textit{Typescript}, \textit{React}, \textit{Docker}, \textit{AWS Lambda}, \textit{AWS ECS}, \textit{AWS S3}.
+    \item Lead developer of \highlight{Clipforge}, heavy video processing and analysis backend of Clipvoo, a B2B SaaS for storing, organizing and analyzing CCTV footage with \highlight{AI-enhanced analysis}.
+    \item Developed the backend from the ground up, scaling Clipvoo from MVP to a few stable clients, and still growing.
+    \item Worked on heavy FFmpeg-based video processing distributed across 2 GPU servers, optimized for efficient resource use, fault-tolerant job handling and state-of-the-art speeds.
+    \item Developed a robust AI video analysis pipeline, powered by Vertex AI, and a custom HLS player optimized for event finding and smooth high-speed playing of videos up to 100 hours long.
+    \item Integrated observability through a dockerized \highlight{LGTM} stack with OTel, and built a deployment flow with automated tests and E2E testing of all supported formats and essential API endpoints before automated deployment on all servers.
+    \item \textbf{Technologies}: \textit{Python}, \textit{FastAPI}, \textit{PostgreSQL}, \textit{Supabase}, \textit{FFmpeg}, \textit{S3}, \textit{Docker}, \textit{OTel}, \textit{Grafana}.
   \end{itemize}
 }
 
-\cventry{Jan 2025--Mar 2025}{\textbf{Amazon}}{Software Development Engineer (PBC)}{Madrid, Spain}{Helios Team}{
+\cventry{Apr 2024--Apr 2025}{\textbf{University of Alcalá}}{Research Intern}{Alcalá de Henares, Spain}{Automation Department}{
   \begin{itemize}
-    \item \highlight{Led the design and implementation} of monitoring and auditing system for solar energy devices across \highlight{100+ Amazon facilities}.
-    \item Built \highlight{CI/CD pipelines} for software deployment with automated testing, monitoring, and rollback capabilities, achieving \highlight{99.9\% system uptime}.
-    \item Built scalable \highlight{serverless Web API} for solar device data visualization, serving monitoring and auditing dashboards across Amazon's facility network.
-    \item \textbf{Technologies}: \textit{Python}, \textit{Java}, \textit{Typescript}, \textit{AWS Lambda}, \textit{AWS API Gateway}, \textit{DynamoDB}, \textit{AWS S3}, \textit{AWS CloudWatch}.
+    \item Conducted a meta-analysis of the state of the art in \highlight{DNS tunneling}, analyzing the literature.
+    \item Helped develop \highlight{BareFlow} in \textit{C++} on Ubuntu. Third author of \link[\textit{BareFlow: A Pure Layer-2 Data-Driven Protocol for Transparent Plug-and-Play Routing}]{https://ieeexplore.ieee.org/document/11038903/}.
+    \item \textbf{Technologies}: \textit{C++}, \textit{Ubuntu}, \textit{computer networks}.
   \end{itemize}
 }
 
-\cventry{Jan 2024--Jan 2025}{\textbf{Amazon}}{Software Development Engineer (PBC)}{Madrid, Spain}{RIS Team}{
+\cventry{2023--2024}{\textbf{Published Android game}}{Video Game Developer}{}{Google Play}{
   \begin{itemize}
-    \item Initiated development of native C\# (\textit{.NET Framework}) application to integrate \highlight{Industrial Programmable Logic Controllers (PLCs)} with AWS cloud infrastructure for backup and auditing.
-    \item Implemented \highlight{CI/CD pipelines} using AWS CDK for \highlight{full-stack PLC management application} (\textit{React} frontend and API), reducing operational load by \highlight{80\%}.
-    \item \textbf{Technologies}: \textit{C\#}, \textit{.NET}, \textit{.NET Framework}, \textit{Typescript}, \textit{React}, \textit{GraphQL}, \textit{AWS CDK}, \textit{AWS RDS}, \textit{AWS S3}, \textit{AWS CodeStar}.
+    \item Developed a full \highlight{3D mobile Android game} in \textit{Unity} with integrated Unity Ads and published it on Google Play.
+    \item Covered the full production workflow: 3D modeling and texturing, game logic with OOP in \textit{C\#}, package management, shaders, lighting, animation, publishing, and third-party APIs.
+    \item \textbf{Technologies}: \textit{Unity}, \textit{C\#}, \textit{Blender}.
   \end{itemize}
 }
 
-\cventry{Jun 2023--Dec 2024}{\textbf{Amazon}}{Data Engineer Intern}{Madrid, Spain}{RIS Team}{
+\cventry{2022--2025}{\textbf{Private tutoring}}{Physics and Mathematics Tutor}{}{ESO and Bachillerato}{
   \begin{itemize}
-      \item Built \highlight{ETL pipelines} using \textit{AWS Lambda} and \textit{Python} to collect data from Industrial Programmable Logic Controllers (PLCs) across \highlight{100+ facilities in Europe}.
-      \item Built \highlight{\textit{GraphQL} API layer} in \textit{JavaScript} to bridge operational device data in \textit{AWS RDS} with \textit{React} command and control frontend.
-    \item \textbf{Technologies}: \textit{Python}, \textit{JavaScript}, \textit{Typescript}, \textit{React}, \textit{GraphQL}, \textit{AWS Lambda}, \textit{AWS RDS}, \textit{AWS S3}.
+    \item Taught mathematics and physics to several ESO and Bachillerato students, with excellent reviews on Superprof.
   \end{itemize}
 }
 
 \section{Education}
-\cventry{2020--2024}{\textbf{Universidad Carlos III de Madrid}}{Bachelor of Engineering in Data Science}{Madrid, Spain}{Among Spain's top engineering universities}{
-    \begin{itemize}
-      \item Grade: \highlight{7.89/10} (GPA: \highlight{3.48/4.0})
-      \item Received \highlight{honors distinction} in the program's flagship \highlight{Deep Learning} course, plus 2 additional courses.
-      \item Specialized in \highlight{Generative AI}, \highlight{Machine Learning}, \highlight{Programming}, \highlight{Bayesian Statistics}, and \highlight{exploratory data analysis}.
-      \item \textbf{Bachelor Thesis}: \link[\textit{Design and Implementation of an Open-Source Large Language Model Platform with Retrieval-Augmented Generation Capabilities}]{https://github.com/Yoquec/final-thesis/}.
-      \item \textbf{Technologies}: \textit{Python}, \textit{R}, \textit{Kotlin}, \textit{PyTorch}, \textit{Linux}, \textit{git}, \textit{GitHub}.
-    \end{itemize}
+\cventry{2021--Present}{\textbf{University of Alcalá}}{Double Degree in Computer Science and Business Management}{Alcalá de Henares, Spain}{}{
+  \begin{itemize}
+    \item Grade: \highlight{7.85/10} (GPA: \highlight{3.3/4.0})
+    \item Honors distinction in 6 courses: Object-Oriented Programming, Financial Management II, Strategic Management, Programming Fundamentals, Statistics I and Human Resources.
+    \item Coordinator of the \highlight{2024 Programming Gymkhana} and winner of the 2023 edition.
+  \end{itemize}
 }
+
+\cventry{2016--2018}{\textbf{ConMasFuturo}}{Professional Videogame Development with Unity 3D}{}{}{}
 
 \section{Languages}
 \cvitem{}{%
-  \textbf{Spanish}: Native proficiency \hfill $\cdot$ \hfill
-  \textbf{English}: Bilingual proficiency \hfill $\cdot$ \hfill
-  \textbf{Chinese}: Elementary proficiency
+  \textbf{Spanish}: Native \hfill $\cdot$ \hfill
+  \textbf{English}: C1 Advanced (Cambridge) \hfill $\cdot$ \hfill
+  \textbf{French}: Basic \hfill $\cdot$ \hfill
+  \textbf{Chinese}: HSK 1
 }
 
 \end{document}
